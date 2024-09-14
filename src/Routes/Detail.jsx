@@ -25,11 +25,11 @@ const Detail = () => {
   return (
       <div className={state.theme === 'dark' ? 'detail dark' : 'detail'}>
         <img className="odontologo" src="/images/doctor.jpg" alt="Odontologo" />
-        <h3>Detail Dentist id: {detail.id}</h3>
-        <h3>Nombre: {detail.name}</h3>
-        <h3>Correo: {detail.email}</h3>
-        <h3>Telefono: {detail.phone}</h3>
-        <h3>Web: {detail.website}</h3>
+        <h3>Dentist id: {detail.id}</h3>
+        <h3>Name: {detail.name}</h3>
+        <h3>Email: {detail.email}</h3>
+        <h3>Phone: {detail.phone}</h3>
+        <h3>Website: {detail.website}</h3>
       </div>
   )
 }
